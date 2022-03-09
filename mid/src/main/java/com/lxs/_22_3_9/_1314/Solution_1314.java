@@ -1,10 +1,13 @@
 package com.lxs._22_3_9._1314;
 
+import java.util.Arrays;
+
 public class Solution_1314 {
     public static void main(String[] args) {
         int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         int k = 1;
         int[][] res = matrixBlockSum(mat, k);
+        System.out.println(Arrays.toString(res));
     }
 
     public static int[][] matrixBlockSum(int[][] mat, int k) {
