@@ -25,7 +25,7 @@ public class Solution_45 {
         if (left > right) return;
         int i = left;
         int j = right;
-        String povid = strs[i];
+        String pivot = strs[i];
         while (i < j) {
             while ((strs[j] + strs[left]).compareTo(strs[left] + strs[j]) >= 0 && i < j) {
                 j--;
@@ -40,7 +40,7 @@ public class Solution_45 {
             }
         }
         strs[left] = strs[i];
-        strs[i] = povid;
+        strs[i] = pivot;
 
         quickSort(strs, left, i - 1);
         quickSort(strs, i + 1, right);

@@ -17,7 +17,7 @@
       <module name="400_mid" target="1.7" />
       <module name="453_sim" target="1.7" />
       <module name="5906_sim" target="1.7" />
-      <module name="hard" target="1.7" />
+      <module name="hard" target="8" />
       <module name="mid" target="8" />
       <module name="simple" target="8" />
       <module name="untitled" target="1.7" />
