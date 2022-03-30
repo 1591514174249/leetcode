@@ -1,9 +1,10 @@
 package com.lxs._22_3_16._110;
 
-import java.util.LinkedList;
+import java.util.*;
 
 public class Solution_110 {
     public static void main(String[] args) {
+
         TreeNode node1 = new TreeNode(1);
         TreeNode node2 = new TreeNode(2);
         TreeNode node3 = new TreeNode(2);
