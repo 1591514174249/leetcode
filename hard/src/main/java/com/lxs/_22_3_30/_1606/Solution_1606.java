@@ -9,6 +9,7 @@ public class Solution_1606 {
         Solution_1606 s = new Solution_1606();
         List<Integer> res = s.busiestServers(3, arrival, load);
         System.out.println(res.toString());
+
     }
 
 
